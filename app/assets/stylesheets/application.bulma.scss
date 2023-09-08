@@ -36,4 +36,14 @@
 // @import "bulma/sass/layout/hero.sass";
 // @import "bulma/sass/layout/section.sass";
 
-@import 'bulma/bulma';
+@import "bulma/bulma";
+@import "hangouts";
+
+#message-display {
+  height: 80vh;
+  overflow: auto;
+}
+
+#message-input {
+  width: 60vw;
+}
